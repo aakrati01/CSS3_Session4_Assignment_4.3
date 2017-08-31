@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Div box with image </title>
+	<style type="text/css">
+
+		/* properties for the div box */
+		div {
+			margin-top: 300px;
+			width: 100px;
+			height: 100px;
+			transition: width 2s, height 2s, transform 2s;
+			margin: auto;
+			
+		}
+
+		div img {
+			display: block;
+			width: 100%;
+			border: 2px solid black;
+			border-radius: 25px;
+		}
+	/* propeties for hovering and transformation in div box */
+		div:hover {
+			width: 500px;
+			height: 400px;
+			transform: rotate(180deg);
+		}
+	</style>
+</head>
+<body>
+	<H2>Image will perform transition and transform property on taking cursor to image</H2>		<!-- Heading on the page -->
+	<figure>									
+	<div>
+		<img src="divfit.jpg" alt="Div image">   <!-- Including image in div box -->
+	</div>
+		<figcaption> fig 1 :  A view of the Nature </figcaption>    <!-- Caption of the figure -->
+	</figure>
+	
+</body>
+</html>
